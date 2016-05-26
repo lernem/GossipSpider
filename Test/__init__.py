@@ -25,9 +25,9 @@ def generate_gossip(soup):
         return None
 
     for gossip_data in tmptag:
-        # print '================================'
-        # enum_elem(gossip_data)
-        print(gossip_data)
+        print '================================'
+        enum_elem(gossip_data)
+        # print(gossip_data)
 
 if __name__ == '__main__':
     soup = bs4.BeautifulSoup(open('Multi_emoji.html'), 'lxml')
