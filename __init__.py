@@ -132,9 +132,12 @@ class Login(object):
 
 
 if __name__ == '__main__':
-    user_login = Login()
-    username = 'lernem@126.com'
-    password = 'Feed3)one)))'
-    domain = login_domain
-    user_login.set_login_info(username, password, domain)
-    user_login.login()
+    with open(r'E:\account.txt', 'r') as account_file:
+        text = account_file.readlines()
+        username = text[0].strip('\n')
+        password = text[1].strip('\n')
+        domain = login_domain
+
+        user_login = Login()
+        user_login.set_login_info(username, password, domain)
+        user_login.login()
