@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport"/>
+  <title>
+   手机人人网
+  </title>
+  <meta content="BUILD.70a71681-f761-44f7-b6fb-029238bddf44" name="msApplication-ID"/>
+  <meta content="BUILD.70a71681-f761-44f7-b6fb-029238bddf44_jmektqcje7yt4" name="msApplication-PackageFamilyName"/>
+  <meta content="0" http-equiv="Expires"/>
+  <meta content="no-cache" http-equiv="Cache-Control"/>
+  <meta content="no-cache" http-equiv="Pragma"/>
+  <link href="http://s.xnimg.cn/wap/apple_icon_.png" rel="apple-touch-icon-precomposed"/>
+  <link href="http://s.xnimg.cn/a77078/wap/i.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <div id="logo">
+   <table>
+    <tr>
+     <td>
+      <a href="http://3g.renren.com/?htf=736&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;from=">
+       <img alt="renren" src="http://s.xnimg.cn/wap/logo.gif"/>
+      </a>
+     </td>
+     <td class="top_search">
+      <a href="http://3g.renren.com/search/main.do?htf=726&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7">
+       找人
+      </a>
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div class="sec nav">
+   <a class="cur" href="http://3g.renren.com/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=1">
+    首页
+   </a>
+   |
+   <a href="http://3g.renren.com/profile.do?id=246948247&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=2">
+    个人主页
+   </a>
+   |
+   <a href="http://3g.renren.com/friendlist.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=3">
+    好友
+   </a>
+   |
+   <a href="http://mapp.renren.com/apps.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=5">
+    应用
+   </a>
+   |
+   <a accesskey="3" href="http://3g.renren.com/news/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=701">
+    消息
+   </a>
+   |
+   <a href="http://3g.renren.com/chat/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=6">
+    聊天
+   </a>
+  </div>
+  <!-- 积分 -->
+  <div class="sec stat">
+   <b>
+    渐修竹:
+   </b>
+   今天程序员节？
+   <span class="time">
+    2014年10月24日 10:28
+   </span>
+   <form action="http://3g.renren.com/status/wUpdateStatus.do?htf=735&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;tsc=fe17deca9ff03bfb07b5615fee4651ad&amp;r=h&amp;f=waphome" method="post">
+    <p>
+     <input name="_rtk" type="hidden" value="843bc36e"/>
+     <input name="sour" type="hidden" value="home"/>
+     <input name="loginbybm" type="hidden" value=""/>
+     <input class="input_b" name="status" type="text" value=""/>
+    </p>
+    <!-- <p><select name="pid"><option value=" ">可选择所在地点</option><option value="RRAE04D95FA37896C5F0A,1" >外婆家</option><option value="RRAA14D95FA378F9856FD,2" >南京航空航天大学金城...</option><option value="RRAE04D95FA378E8A4521,3" >南京国立铜山大学</option><option value="RRAA14D95FA378F23D8FF,4" >佛城东路</option><option value="RRAE04D95FA378E99C5FC,5" >sheldon的宝座</option><option value="RRAA14D95FA378F580D06,6" >南京长江大桥</option><option value="RRAE04D95FA378E8801AA,7" >被冻醒求温暖</option><option value="RRAE04D95FA378ED28B92,8" >好久没回来的窝</option><option value="-1,1" >-以上没有我的所在地点-</option></select></p>-->
+    <p>
+     <input class="button" name="update" type="submit" value="发布"/>
+     <input class="button_e" name="update" type="submit" value="点名"/>
+     <input class="button_e" name="update" type="submit" value="表情"/>
+    </p>
+   </form>
+  </div>
+  <!--<div class="sec">2014年4月10日 18:20&nbsp;在&nbsp;<a href="http://3g.renren.com/place/statusmap.do?&amp;htf=1050&amp;srcid=5171959919&type=1&amp;id=246948247&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7">泰山</a><img src="http://s.xnimg.cn/wap/arrow.gif"alt="" /><a href="http://3g.renren.com/place/recommend/place?&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=1116">附近推荐</a></div>-->
+  <!-- <div class="sec">现在在哪?&nbsp;<img src="http://s.xnimg.cn/wap/arrow.gif"alt="" /><a href="http://3g.renren.com/place/search.do?&amp;htf=1052&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=382&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">报到</a>&nbsp;<img src="http://s.xnimg.cn/wap/arrow.gif" alt="" /><a href="http://3g.renren.com/place/searchfriendsplace.do?&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;htf=1051&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7">好友位置</a></div>-->
+  <div class="sec">
+   <a class="cur" href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;fp=-1">
+    新鲜事
+   </a>
+   <em>
+    |
+   </em>
+   <a href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;tab=100&amp;htf=1512">
+    特别关注
+   </a>
+  </div>
+  <div class="list">
+   <div class="t">
+    <a class="cur" href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=80">
+     全部
+    </a>
+    <a href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;tab=1&amp;htf=107">
+     状态
+    </a>
+    <a href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;tab=2&amp;htf=81">
+     日志
+    </a>
+    <a href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;tab=3&amp;htf=82">
+     相册
+    </a>
+    <a href="http://3g.renren.com/stories.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;tab=4&amp;htf=83">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28049801451">
+    </a>
+    <a href="/profile.do?id=700445171&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     咔咔
+    </a>
+    上传了10张照片至
+    <a href="/album/wgetalbum.do?id=1139780720&amp;owner=700445171&amp;sfs=fd_28049801451_newsfeed&amp;htf=1014&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049801451-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     花季
+    </a>
+    <br/>
+    <a class="p" href="/album/wgetphoto.do?id=8457458865&amp;owner=700445171&amp;sfs=fd_28049801451_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049801451-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     <img alt="" src="http://fmn.rrimg.com/fmn075/20160518/1125/p/m2w80h120q50lt_head_recy_f08d00007f171e7f.jpg"/>
+    </a>
+    <p class="ns">
+     《花季》
+
+摄影、后期：咔咔
+
+模特：@汪佩妮_PENNY
+
+Q交流群：170233369 欢迎来交流，互相学习
+
+我的线上摄影课程级线下课程也已经启动了，有兴趣的可以联系我咨询，QQ:14761382 注明摄影课咨询
+    </p>
+    <p class="gs">
+     昨天 11:29 来自人人V7
+    </p>
+    <a href="/album/wgetalbum.do?id=1139780720&amp;owner=700445171&amp;sfs=fd_28049801451_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049801451-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论(1)
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/album/wgetphoto.do?id=8457458865&amp;albumid=1139780720&amp;owner=700445171&amp;act=share&amp;htf=694&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049801451-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28049162515">
+    </a>
+    <a href="/profile.do?id=285010027&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     孔晨悦
+    </a>
+    : 嗷 推上那个上海吴越语bot好有趣喔
+    <p class="gs">
+     5月17日 22:04 来自人人V7
+    </p>
+    <a href="/status/replystatus.do?doingid=5290593195&amp;id=285010027&amp;htf=727&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049162515-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     回复
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/status/forwardstatus.do?doingid=5290593195&amp;id=285010027&amp;f=homefeeds&amp;htf=728&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049162515-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28049056489">
+    </a>
+    <a href="/profile.do?id=247575164&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     杨晨
+    </a>
+    : 补龋洞有感。
+    <br/>
+    <a class="p" href="/album/wgetphoto.do?id=8457035781&amp;owner=247575164&amp;sfs=fd_28049056489_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049056489-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     <img alt="" src="http://fmn.rrimg.com/fmn073/20160517/1725/p/m2w80h120q50lt_head_L3Lf_c5a10000666e1e84.jpg"/>
+    </a>
+    <p class="gs">
+     5月17日 17:26 来自人人2015
+    </p>
+    <a href="/album/wgetphoto.do?id=8457035781&amp;owner=247575164&amp;sfs=fd_28049056489_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049056489-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/album/wgetphoto.do?id=8457035781&amp;albumid=299358871&amp;owner=247575164&amp;act=share&amp;htf=694&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049056489-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28049044721">
+    </a>
+    <a href="/profile.do?id=285010027&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     孔晨悦
+    </a>
+    :
+    <img alt="伤不起" src="http://a.xnimg.cn/imgpro/icons/statusface/shangbuqi.gif"/>
+    <img alt="伤不起" src="http://a.xnimg.cn/imgpro/icons/statusface/shangbuqi.gif"/>
+    <img alt="伤不起" src="http://a.xnimg.cn/imgpro/icons/statusface/shangbuqi.gif"/>
+    转自孔晨悦
+    <p class="forward">
+     <a href="/profile.do?id=285010027&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+      孔晨悦
+     </a>
+     : 半天写不出来一个字
+     <img alt="生病" src="http://a.xnimg.cn/imgpro/emotions/tie/14.gif?ver=1"/>
+    </p>
+    <p class="gs">
+     5月17日 16:51
+    </p>
+    <a href="/status/replystatus.do?doingid=5290587702&amp;id=285010027&amp;htf=727&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049044721-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     回复
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/status/forwardstatus.do?doingid=5290587702&amp;id=285010027&amp;f=homefeeds&amp;htf=728&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328049044721-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28048315045">
+    </a>
+    <a href="/profile.do?id=285010027&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     孔晨悦
+    </a>
+    : 讲道理 知乎上面那些大概都是胡扯博眼球 最有用的还是严实的人类学杂记 抱大腿ING
+    <p class="gs">
+     5月16日 22:44 来自人人V7
+    </p>
+    <a href="/status/replystatus.do?doingid=5290575668&amp;id=285010027&amp;htf=727&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048315045-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     回复
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/status/forwardstatus.do?doingid=5290575668&amp;id=285010027&amp;f=homefeeds&amp;htf=728&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048315045-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28048312830">
+    </a>
+    <a href="/profile.do?id=285010027&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     孔晨悦
+    </a>
+    : 马//杨芳达Cathy:分享日志
+    <p class="ns">
+     分享自
+     <a href="/profile.do?id=248037634&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+      王天驰
+     </a>
+     的日志
+    </p>
+    <p class="forward">
+     <a href="/share/shareentry.do?id=18033106642&amp;suid=285010027&amp;sfs=fd_28048312830_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312830-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+      纠结日本古代史的各位来看看吧。。。
+     </a>
+     <br/>
+     推古朝到奈良时期的皇室家系。。果然是乱阿。。。唉唉唉数字是第n代天皇的序号，划红线的是比较重要的人，括号里注了相应时期的史实大家加油吧~~ @李美子 @武高强 @李昱堃 @华英 @张译丹 @杨硕...
+     <br/>
+     <a href="/share/shareentry.do?id=18033106642&amp;suid=285010027&amp;sfs=fd_28048312830_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312830-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+      继续阅读»
+     </a>
+    </p>
+    <p class="gs">
+     5月16日 22:38 来自人人V7
+    </p>
+    <a href="/share/shareentry.do?id=18033106642&amp;suid=285010027&amp;sfs=fd_28048312830_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312830-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/share/doshare.do?id=731866156&amp;shareid=18033106642&amp;suid=285010027&amp;owner=248037634&amp;act=share&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312830-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28048312694">
+    </a>
+    <a href="/profile.do?id=285010027&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     孔晨悦
+    </a>
+    : 参考记 讲道理还是中世纪有趣嗷//陈新:分享日志
+    <p class="ns">
+     分享自
+     <a href="/profile.do?id=413599132&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+      王子诤
+     </a>
+     的日志
+    </p>
+    <p class="forward">
+     <a href="/share/shareentry.do?id=18033106637&amp;suid=285010027&amp;sfs=fd_28048312694_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312694-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+      日本古代史大纲
+     </a>
+     <br/>
+     一、日本历史与文化概述二、诸神流窜——神话时代与史前文化三、卑弥呼何许人也？——邪马台国与古坟时代四、风云激荡的飞鸟时代——圣德太子改革与大化改新五、中日第一战——白江口之战六、从奈良...
+     <br/>
+     <a href="/share/shareentry.do?id=18033106637&amp;suid=285010027&amp;sfs=fd_28048312694_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312694-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+      继续阅读»
+     </a>
+    </p>
+    <p class="gs">
+     5月16日 22:38 来自人人V7
+    </p>
+    <a href="/share/shareentry.do?id=18033106637&amp;suid=285010027&amp;sfs=fd_28048312694_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312694-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/share/doshare.do?id=767255743&amp;shareid=18033106637&amp;suid=285010027&amp;owner=413599132&amp;act=share&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048312694-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28048304783">
+    </a>
+    <a href="/profile.do?id=285010027&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     孔晨悦
+    </a>
+    : 为啥让我去上日本古代史 我真的啥都不知道 哭哭//徐一:分享日志
+    <p class="ns">
+     分享自
+     <a href="/profile.do?id=322463120&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+      赵正清
+     </a>
+     的日志
+    </p>
+    <p class="forward">
+     <a href="/share/shareentry.do?id=18033105846&amp;suid=285010027&amp;sfs=fd_28048304783_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048304783-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+      日本人种的起源
+     </a>
+     <br/>
+     首先纠正错误的思维意识：1日本人不是中国人的后代，也不是传说中的徐福去寻找长生不老药。（这是对一点常识都没有的说的） 证据：公元前13000年左右，日本出现陶器。它们是世界已知的最古老的陶器，当...
+     <br/>
+     <a href="/share/shareentry.do?id=18033105846&amp;suid=285010027&amp;sfs=fd_28048304783_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048304783-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+      继续阅读»
+     </a>
+    </p>
+    <p class="gs">
+     5月16日 22:14 来自人人V7
+    </p>
+    <a href="/share/shareentry.do?id=18033105846&amp;suid=285010027&amp;sfs=fd_28048304783_newsfeed&amp;htf=803&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048304783-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/share/doshare.do?id=864241108&amp;shareid=18033105846&amp;suid=285010027&amp;owner=322463120&amp;act=share&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328048304783-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28045603847">
+    </a>
+    <a href="/profile.do?id=247575164&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     杨晨
+    </a>
+    : “吃得饱抱得不得了，”语出:一只博采好学的帅八哥。周快，早好。
+    <br/>
+    <a class="p" href="/album/wgetphoto.do?id=8454440139&amp;owner=247575164&amp;sfs=fd_28045603847_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328045603847-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     <img alt="" src="http://fmn.rrimg.com/fmn077/20160513/0635/p/m2w80h120q50lt_head_gvXd_6a20000010fa1e84.jpg"/>
+    </a>
+    <p class="gs">
+     5月13日 06:37 来自人人2015
+    </p>
+    <a href="/album/wgetphoto.do?id=8454440139&amp;owner=247575164&amp;sfs=fd_28045603847_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328045603847-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/album/wgetphoto.do?id=8454440139&amp;albumid=299358871&amp;owner=247575164&amp;act=share&amp;htf=694&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328045603847-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28045154044">
+    </a>
+    <a href="/profile.do?id=247575164&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     杨晨
+    </a>
+    :
+    <img alt="默哀" src="http://a.xnimg.cn/imgpro/icons/statusface/lazhu.gif"/>
+    <p class="gs">
+     5月12日 13:34 来自人人V7
+    </p>
+    <a href="/status/replystatus.do?doingid=5290492563&amp;id=247575164&amp;htf=727&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328045154044-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     回复
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/status/forwardstatus.do?doingid=5290492563&amp;id=247575164&amp;f=homefeeds&amp;htf=728&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328045154044-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28044623910">
+    </a>
+    <a href="/profile.do?id=700445171&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     咔咔
+    </a>
+    上传了17张照片至
+    <a href="/album/wgetalbum.do?id=1139293939&amp;owner=700445171&amp;sfs=fd_28044623910_newsfeed&amp;htf=1014&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328044623910-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     束缚
+    </a>
+    <br/>
+    <a class="p" href="/album/wgetphoto.do?id=8453810891&amp;owner=700445171&amp;sfs=fd_28044623910_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328044623910-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     <img alt="" src="http://fmn.rrimg.com/fmn077/20160511/2115/p/m2w80h120q50lt_head_EMTp_f643000001b71e80.jpg"/>
+    </a>
+    <p class="ns">
+     《束缚》摄影、后期：咔咔
+模特：宝嘉
+Q交流群：170233369 欢迎来交流，互相学习
+我的线上摄影课程级线下课程也已经启动了，有兴趣的可以联系我咨询，QQ:14761382 注明摄影课咨询
+    </p>
+    <p class="gs">
+     5月11日 21:19 来自人人V7
+    </p>
+    <a href="/album/wgetalbum.do?id=1139293939&amp;owner=700445171&amp;sfs=fd_28044623910_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328044623910-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论(2)
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/album/wgetphoto.do?id=8453810891&amp;albumid=1139293939&amp;owner=700445171&amp;act=share&amp;htf=694&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328044623910-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28043681728">
+    </a>
+    <a href="/profile.do?id=249827120&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     JENNA夏娟
+    </a>
+    上传了23张照片至
+    <a href="/album/wgetalbum.do?id=1139207246&amp;owner=249827120&amp;sfs=fd_28043681728_newsfeed&amp;htf=1014&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328043681728-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     手机相册
+    </a>
+    <br/>
+    <a class="p" href="/album/wgetphoto.do?id=8453013670&amp;owner=249827120&amp;sfs=fd_28043681728_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328043681728-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     <img alt="" src="http://fmn.xnpic.com/fmn072/20160510/1250/p/m2w80h120q50lt_head_fz40_b17f00016dce1e83.jpg"/>
+    </a>
+    <p class="ns">
+     ""
+    </p>
+    <p class="gs">
+     5月10日 12:52 来自人人2015
+    </p>
+    <a href="/album/wgetalbum.do?id=1139207246&amp;owner=249827120&amp;sfs=fd_28043681728_newsfeed&amp;htf=804&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328043681728-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0">
+     评论
+    </a>
+    <em>
+     |
+    </em>
+    <a href="/album/wgetphoto.do?id=8453013670&amp;albumid=1139207246&amp;owner=249827120&amp;act=share&amp;htf=694&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328043681728-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     分享
+    </a>
+   </div>
+   <div>
+    <a name="28043022790">
+    </a>
+    <a href="/profile.do?id=249827120&amp;htf=731&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     JENNA夏娟
+    </a>
+    更新了
+    <a href="/album/wgetphoto.do?id=8452090288&amp;owner=249827120&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328043022790-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     头像
+    </a>
+    <br/>
+    <a class="p" href="/album/wgetphoto.do?id=8452090288&amp;owner=249827120&amp;ret=home.do%3F%26bm%3D246948247_b938e913b0eb763f68c0e9e2a25149b3_1463636686235%26f%3D1%26w%3D1%2328043022790-n-%E6%96%B0%E9%B2%9C%E4%BA%8B-n-0&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;abc">
+     <img alt="" src="http://hdn.xnimg.cn/photos/hdn321/20160508/2215/p/p/m2w80h120q50lt_m2w80h120q50lt_h_head_N9SX_4e920001c7861986.jpg"/>
+    </a>
+    <p class="gs">
+     5月9日 15:11 来自人人2015
+    </p>
+   </div>
+   <div class="l">
+    <a href="http://3g.renren.com/stories.do?htf=470&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7">
+     下一页
+    </a>
+   </div>
+  </div>
+  <div class="sec">
+   新鲜事图片:
+   <b>
+    显示
+   </b>
+   <em>
+    |
+   </em>
+   <a href="http://3g.renren.com/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;pf_config=0&amp;htf=377">
+    不显示
+   </a>
+  </div>
+  <div class="sec">
+   <img alt="" src="http://s.xnimg.cn/wap/arrow.gif"/>
+   <a href="http://3g.renren.com/blog/wnewblog.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;cancel=home&amp;htf=19">
+    写日志
+   </a>
+   <img alt="" src="http://s.xnimg.cn/wap/arrow.gif"/>
+   <a href="http://3g.renren.com/album/wuploadphoto.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=455">
+    传照片
+   </a>
+  </div>
+  <div class="sec promotion">
+   <a href="http://pd.renren.com/mobile/2015">
+    将最新版的人人网下载到手机
+   </a>
+  </div>
+  <div class="sec nav">
+   <a class="cur" href="http://3g.renren.com/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=1">
+    首页
+   </a>
+   |
+   <a href="http://3g.renren.com/profile.do?id=246948247&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=2">
+    个人主页
+   </a>
+   |
+   <a href="http://3g.renren.com/friendlist.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=3">
+    好友
+   </a>
+   |
+   <a href="http://mapp.renren.com/apps.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=5">
+    应用
+   </a>
+   |
+   <a accesskey="3" href="http://3g.renren.com/news/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=701">
+    消息
+   </a>
+   |
+   <a href="http://3g.renren.com/chat/home.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=6">
+    聊天
+   </a>
+   <br/>
+   <a href="http://pd.renren.com/mobile/2015">
+    客户端
+   </a>
+   |
+   <a accesskey="4" href="http://mpay.renren.com/pay.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=30">
+    充值
+   </a>
+   |
+   <a href="http://3g.renren.com/cooperation.do?htf=450&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7">
+    酷站
+   </a>
+   |
+   <a href="http://3g.renren.com/help/guestbook.do?htf=733&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;from=">
+    反馈
+   </a>
+   |
+   <a href="http://3g.renren.com/wlogout.do?&amp;sid=3ZlWdbscgb54u1iIXlVO_d&amp;na7ec7&amp;htf=734&amp;from=&amp;_rtk=843bc36e&amp;loginbybm=">
+    退出
+   </a>
+  </div>
+  <div id="footer">
+   5月19日 13:44
+   <br/>
+   人人公司
+   <span title="revision 28145; YZSJHL22-205.opi.com">
+    ©
+   </span>
+   Thu May 19 13:44:47 CST 2016
+  </div>
+  <!-- 暂时停止访问移动接口-->
+  <!-- 电信定位-->
+ </body>
+</html>
