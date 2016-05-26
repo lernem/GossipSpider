@@ -51,13 +51,15 @@ class RenrenSpider(object):
         Login m.renren.com.
         :return: Prettified home page soup.
         """
-        # Login, return soup
         login_params = {'domain': self.domain, 'email': self.username, 'password': self.password}
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'}
         req = urllib2.Request(login_url, urllib.urlencode(login_params), headers=headers)
         response = urllib2.urlopen(req)
         home_page = response.read()
+
+        with open('test_home_page.html', 'w') as f:
+            f.write(home_page)
 
         return bs4.BeautifulSoup(home_page, 'lxml')
 
@@ -74,6 +76,9 @@ class RenrenSpider(object):
         """
 
         # Go to personal page
+        personal_page_soup = None
+        gossip_page_url = ''
+
         for child in home_page_soup.descendants:
             if child.name == 'a' and child.string == '个人主页':
                 personal_page = urllib2.urlopen(child['href']).read()
@@ -107,20 +112,19 @@ class RenrenSpider(object):
             gossip_page = urllib2.urlopen(gossip_page_url).read()
             soup = bs4.BeautifulSoup(gossip_page, 'lxml')
             for child in soup.find(class_="list").children:
-                if child.p is not None:  # is gossip
-                    if senders.get(child.a.string) is None:
-                        senders[child.a.string] = self.get_user_id_from_user_url(child.a['href'])
+                if child.p is not None:
+                    if '盛洁' in str(child.get_text()):
+                        print child
                 elif child.a.string == '下一页':  # is next page
                     gossip_page_url = child.a['href']
                 else:  # is last page
                     gossip_page_url = ''
 
             page_idx += 1
-            print '%.2f%%' % (page_idx / float(total_pages_count) * 100)
+            # print '%.2f%%' % (page_idx / float(total_pages_count) * 100)
 
         # Output end time
         print 'End: ', time.strftime('%H:%M:%S', time.localtime(time.time()))
-
 
         for k, v in senders.iteritems():
             print '{0} : {1}'.format(k, v)
