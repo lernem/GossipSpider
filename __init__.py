@@ -7,6 +7,7 @@ import urllib
 import urllib2
 import bs4
 import time
+import Config
 
 # Avoid Chinese encoding error.
 reload(sys)
@@ -121,7 +122,7 @@ class RenrenSpider(object):
                     gossip_page_url = ''
 
             page_idx += 1
-            # print '%.2f%%' % (page_idx / float(total_pages_count) * 100)
+            print '%.2f%%' % (page_idx / float(total_pages_count) * 100)
 
         # Output end time
         print 'End: ', time.strftime('%H:%M:%S', time.localtime(time.time()))
@@ -130,12 +131,11 @@ class RenrenSpider(object):
             print '{0} : {1}'.format(k, v)
 
 if __name__ == '__main__':
-    with open(r'C:\account.txt', 'r') as account_file:
-        text = account_file.readlines()
-        username = text[0].strip('\n')
-        password = text[1].strip('\n')
-        domain = login_domain
+    config = Config.Config()
+    config.init_config_from_file(r'C:\account.txt')
 
-        spider = RenrenSpider(username, password, domain)
-        home_page = spider.login()
-        spider.spider_do(home_page)
+    spider = RenrenSpider(config.username, config.pwd, login_domain)
+    home_page = spider.login()
+    spider.spider_do(home_page)
+
+
