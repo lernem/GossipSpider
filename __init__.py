@@ -130,7 +130,7 @@ class RenrenSpider(object):
             print '{0} : {1}'.format(k, v)
 
 if __name__ == '__main__':
-    with open(r'E:\account.txt', 'r') as account_file:
+    with open(r'C:\account.txt', 'r') as account_file:
         text = account_file.readlines()
         username = text[0].strip('\n')
         password = text[1].strip('\n')
