@@ -57,19 +57,20 @@ class RenrenSpider(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'}
         req = urllib2.Request(login_url, urllib.urlencode(login_params), headers=headers)
         response = urllib2.urlopen(req)
-        home_page = response.read()
+        # home_page = response.read()
+        return response.read()
 
-        with open('test_home_page.html', 'w') as f:
-            f.write(home_page)
+        # with open('test_home_page.html', 'w') as f:
+        #     f.write(home_page)
 
-        return bs4.BeautifulSoup(home_page, 'lxml')
+        # return bs4.BeautifulSoup(home_page, 'lxml')
 
     def get_user_id_from_user_url(self, user_url):
         start = user_url.find('=') + 1
         end = user_url.find('&')
         return user_url[start:end]
 
-    def spider_do(self, home_page_soup):
+    def spider_do(self, home_page):
         """
         Go to the gossip page, get gossips.
         :param home_page_soup:
@@ -80,6 +81,7 @@ class RenrenSpider(object):
         personal_page_soup = None
         gossip_page_url = ''
 
+        home_page_soup = bs4.BeautifulSoup(home_page, 'lxml')
         for child in home_page_soup.descendants:
             if child.name == 'a' and child.string == '个人主页':
                 personal_page = urllib2.urlopen(child['href']).read()
@@ -135,7 +137,6 @@ if __name__ == '__main__':
     config.init_config_from_file(r'C:\account.txt')
 
     spider = RenrenSpider(config.username, config.pwd, login_domain)
-    home_page = spider.login()
-    spider.spider_do(home_page)
+    spider.spider_do(spider.login())
 
 
