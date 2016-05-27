@@ -38,7 +38,7 @@ class RenrenSpider(object):
         gossip_page = urllib2.urlopen(gossip_page_url).read()
         soup = bs4.BeautifulSoup(gossip_page, 'lxml')
         for child in soup.find(class_="list").children:
-            if child.p is None:  # is next page, get total count of pages here
+            if child.p is None:  # Is the navigation line, get total count of pages here.
                 tmp_lst = [text for text in child.strings]
                 tmp_total_str = tmp_lst[5]  # Todo: Need consider about 1 page gossips
                 total_str_start_idx = tmp_total_str.find('/') + 1
