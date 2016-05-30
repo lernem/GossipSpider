@@ -60,7 +60,7 @@ class RenrenSpider(object):
         # home_page = response.read()
         return response.read()
 
-        # with open('test_home_page.html', 'w') as f:
+        # with open(r'TestFile/test_home_page.html', 'w') as f:
         #     f.write(home_page)
 
         # return bs4.BeautifulSoup(home_page, 'lxml')
@@ -95,7 +95,7 @@ class RenrenSpider(object):
                 break
 
         # # Open local web page for test.
-        # soup = bs4.BeautifulSoup(open('gossip_page.html'), 'lxml')
+        # soup = bs4.BeautifulSoup(open(r'TestFile/gossip_page.html'), 'lxml')
 
         total_pages_count = self.get_page_total_cnt(gossip_page_url)
 
