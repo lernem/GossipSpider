@@ -35,7 +35,7 @@ class RenrenSpider(object):
         self.opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(self.cj))
         urllib2.install_opener(self.opener)
 
-    def get_page_total_cnt(self, gossip_page_url):
+    def get_total_pages_count(self, gossip_page_url):
         gossip_page = urllib2.urlopen(gossip_page_url).read()
         soup = bs4.BeautifulSoup(gossip_page, 'lxml')
         for child in soup.find(class_="list").children:
@@ -60,11 +60,6 @@ class RenrenSpider(object):
         # home_page = response.read()
         return response.read()
 
-        # with open(r'TestFile/test_home_page.html', 'w') as f:
-        #     f.write(home_page)
-
-        # return bs4.BeautifulSoup(home_page, 'lxml')
-
     def get_user_id_from_user_url(self, user_url):
         start = user_url.find('=') + 1
         end = user_url.find('&')
@@ -73,7 +68,7 @@ class RenrenSpider(object):
     def spider_do(self, home_page):
         """
         Go to the gossip page, get gossips.
-        :param home_page_soup:
+        :param home_page:
         :return:
         """
 
@@ -89,6 +84,9 @@ class RenrenSpider(object):
                 break
 
         # Get the gossip page url as a spider start
+        if personal_page_soup is None:
+            return
+
         for child in personal_page_soup.descendants:
             if child.name == 'a' and child.string == '留言板':
                 gossip_page_url = child['href']
@@ -97,26 +95,22 @@ class RenrenSpider(object):
         # # Open local web page for test.
         # soup = bs4.BeautifulSoup(open(r'TestFile/gossip_page.html'), 'lxml')
 
-        total_pages_count = self.get_page_total_cnt(gossip_page_url)
+        total_pages_count = self.get_total_pages_count(gossip_page_url)
 
-        # Output start time.
         print 'Start: ', time.strftime('%H:%M:%S', time.localtime(time.time()))
 
         # Get gossips, maybe a generator is a better solution for functional programming.
 
-        # A dict for collecting all senders.
-        senders = {}
+        # senders = {}  # A dict to collect all senders.
 
         page_idx = 0
         while gossip_page_url != '':
-            # egf.write(str(page_idx))
-            # egf.write('\n')
-
             gossip_page = urllib2.urlopen(gossip_page_url).read()
             soup = bs4.BeautifulSoup(gossip_page, 'lxml')
-            for child in soup.find(class_="list").children:
+            gossips_tag = soup.find(class_="list")
+            for child in gossips_tag.children:
                 if child.p is not None:
-                    if '盛洁' in str(child.get_text()):
+                    if '李修竹' in str(child.get_text()):
                         print child
                 elif child.a.string == '下一页':  # is next page
                     gossip_page_url = child.a['href']
@@ -126,15 +120,14 @@ class RenrenSpider(object):
             page_idx += 1
             print '%.2f%%' % (page_idx / float(total_pages_count) * 100)
 
-        # Output end time
         print 'End: ', time.strftime('%H:%M:%S', time.localtime(time.time()))
 
-        for k, v in senders.iteritems():
-            print '{0} : {1}'.format(k, v)
+        # for k, v in senders.iteritems():
+        #     print '{0} : {1}'.format(k, v)
 
 if __name__ == '__main__':
     config = Config.Config()
-    config.init_config_from_file(r'C:\account.txt')
+    config.init_config_from_file(r'C:\config.txt')
 
     spider = RenrenSpider(config.username, config.pwd, login_domain)
     spider.spider_do(spider.login())

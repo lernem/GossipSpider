@@ -27,10 +27,9 @@ def generate_gossip(soup):
     for gossip_data in gossips_tag:
         print '================================\n'
         enum_elem(gossip_data)
-        # print(gossip_data)
 
 if __name__ == '__main__':
-    soup = bs4.BeautifulSoup(open(r'..\TestFile\multi_emoji_pretty.html'), 'lxml')
+    soup = bs4.BeautifulSoup(open(r'..\TestFile\multi_emoji.html'), 'lxml')
 
     generate_gossip(soup)
 
