@@ -7,9 +7,13 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-if __name__ == '__main__':
-    soup = bs4.BeautifulSoup(open(r'TestFile\multi_emoji.html'), 'lxml')
+def prettify_html(path, output_path):
+    soup = bs4.BeautifulSoup(open(path), 'lxml')
 
-    with open(r'TestFile\multi_emoji_pretty.html', 'w') as f:
+    with open(output_path, 'w') as f:
         f.write(soup.prettify())
+
+if __name__ == '__main__':
+    # prettify_html()
+    pass
 

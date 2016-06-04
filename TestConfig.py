@@ -15,7 +15,6 @@ class TestConfig(unittest.TestCase):
         config.init_config_from_file(r'C:\config.txt')
         self.assertEqual('lernem@126.com', config.username)
         self.assertEqual('Feed3)one)))', config.pwd)
-        print config.target_name
 
 
 if __name__ == '__main__':
