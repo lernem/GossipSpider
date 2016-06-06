@@ -7,6 +7,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+
 def prettify_html(path, output_path):
     soup = bs4.BeautifulSoup(open(path), 'lxml')
 

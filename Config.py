@@ -12,8 +12,12 @@ class Config:
 
     def init_config_from_file(self, config_file_path):
         with open(config_file_path, 'r') as f:
-            config = f.readlines()
-            config = map(lambda x: x.strip('\n'), config)
+            lines = f.readlines()
 
-            self.username = config[0]
-            self.pwd = config[1]
+            self.username = lines[0].rstrip()
+            self.pwd = lines[1].rstrip()
+
+
+if __name__ == '__main__':
+    config = Config()
+    config.init_config_from_file(r'C:\config.txt')
